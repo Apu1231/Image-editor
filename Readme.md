@@ -7,7 +7,8 @@ No frameworks. No backend. Just clean frontend logic ⚡
 </div>
 
 
-🌐 Deployed via GitHub & Vercel
+🌐 Live preview:- https://image-editor-apus-projects-88bbf68e.vercel.app/
+
 
 📌 About the Project
 
