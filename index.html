@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Editor</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theme.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="left">
+                <div class="top">
+
+                    <label class="btn" for="image-input">
+                        Choose image  <i class="ri-camera-ai-line"></i>
+                        <input type="file" id="image-input" accept="image/*" hidden>
+                    </label>
+                    <button class="btn" id="reset">Reset <i class="ri-loop-left-line"></i></button>
+                    <button class="btn" id="download">Download <i class="ri-download-cloud-line"></i></button>
+                </div>
+
+                <div class="bottom">
+                    <div class="placeholder">
+                        <i class="ri-image-line"></i>
+                        <p>No image chosen</p>
+                    </div>
+                    <canvas id="image-canvas">
+
+                    </canvas>
+                </div>
+            </div>
+
+            <div class="right">
+                <h2>Filters</h2>
+                <div class="filters">
+                    <div class="filter">
+                    </div>
+                </div>
+                <h2>Presets</h2>
+                <div class="presets"></div>
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
