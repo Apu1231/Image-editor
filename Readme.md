@@ -7,7 +7,7 @@ No frameworks. No backend. Just clean frontend logic ⚡
 </div>
 
 
-🌐 Live preview:- https://image-editor-apus-projects-88bbf68e.vercel.app/
+🌐 Live preview:- https://image-editor-henna-six.vercel.app/
 
 
 📌 About the Project
